@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/iconfont/iconfont.css">
+	<link rel="stylesheet" href="libs/swiper-4.1.0.min.css">
+	<script src="libs/swiper-4.1.0.min.js"></script>
+</head>
+<body>
+	<div id="main">
+		<header id="header">
+			<i class="iconfont icon-right"></i><h1>影片详情</h1>
+		</header>
+		<div id="content" class="contentDetail">
+			<div class="detail_list">
+				<div class="detail_list_bg"></div>
+				<div class="detail_list_filter"></div>
+				<div class="detail_list_content">
+					<div class="detail_list_img">
+						<img src="images/movie_1.jpg" alt="">
+					</div>
+					<div class="detail_list_info">
+						<h2>无名之辈</h2>
+						<p>A Cool Fish</p>
+						<p>9.2</p>
+						<p>剧情,喜剧,犯罪</p>
+						<p>中国大陆 / 108分钟</p>
+						<p>2018-11-16大陆上映</p>
+					</div>
+				</div>
+			</div>
+			<div class="detail_intro">
+				<p>在一座山间小城中，一对低配劫匪、一个落魄的泼皮保安、一个身体残疾却性格彪悍的残毒舌女以及一系列生活在社会不同轨迹上的小人物，在一个貌似平常的日子里，因为一把丢失的老枪和一桩当天发生在城中的乌龙劫案，从而被阴差阳错地拧到一起，发生的一幕幕令人啼笑皆非的荒诞喜剧。</p>
+			</div>
+			<div class="detail_player swiper-container">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide">
+						<div>
+							<img src="images/person_1.webp" alt="">
+						</div>
+						<p>陈建斌</p>
+						<p>马先勇</p>
+					</li>
+					<li class="swiper-slide">
+						<div>
+							<img src="images/person_1.webp" alt="">
+						</div>
+						<p>陈建斌</p>
+						<p>马先勇</p>
+					</li>
+					<li class="swiper-slide">
+						<div>
+							<img src="images/person_1.webp" alt="">
+						</div>
+						<p>陈建斌</p>
+						<p>马先勇</p>
+					</li>
+					<li class="swiper-slide">
+						<div>
+							<img src="images/person_1.webp" alt="">
+						</div>
+						<p>陈建斌</p>
+						<p>马先勇</p>
+					</li>
+					<li class="swiper-slide">
+						<div>
+							<img src="images/person_1.webp" alt="">
+						</div>
+						<p>陈建斌</p>
+						<p>马先勇</p>
+					</li>
+					<li class="swiper-slide">
+						<div>
+							<img src="images/person_1.webp" alt="">
+						</div>
+						<p>陈建斌</p>
+						<p>马先勇</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script>
+	
+	new Swiper('.detail_player' , {
+		slidesPerView : 'auto',
+		freeMode : true,
+		freeModeSticky: true
+	});
+
+	</script>
+</body>
+</html>
